@@ -1,6 +1,6 @@
-import "./style.css";
-
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `<div class="wrapper">
+document.querySelector<HTMLDivElement>(
+  "#app"
+)!.innerHTML = `<div class="wrapper">
 <div class="white-keys">
 <div class="white"></div>
 <div class="white"></div>
